@@ -14,7 +14,7 @@ A Unity project meant to replicate Super Mario Bros. World 1-1 (Unity 2020.3.2f1
 ---
 Scene transitions are switched by using a SceneLoader prefab. It switches with a fade-in/out animation as scenes are opened/closed.
 
-// Show scene transitions
+![SceneTransition](https://user-images.githubusercontent.com/98930139/163690518-d426a707-a6cf-4a25-9e98-993b48fd2124.gif)
 
 ## Movement
 ---
