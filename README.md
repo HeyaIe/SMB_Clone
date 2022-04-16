@@ -4,7 +4,7 @@ A Unity project meant to replicate Super Mario Bros. World 1-1 (Unity 2020.3.2f1
 
 ## Index
 ---
-- [Scene Transitions](#)
+- [Scene Transitions](#SMB_Clone#scene-transitions)
 - Movement
 - Timer & Score
 - Coinblocks
