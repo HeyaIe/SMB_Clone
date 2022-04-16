@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2499061929232237178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2499061929232237060}
+  - component: {fileID: 2499061929232237179}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2499061929232237060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2499061929232237178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8131888, y: -1.4305298, z: -1.9752146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2499061929232237179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2499061929232237178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f7d538261a6f74bbf46eb3b04b6440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - source: {fileID: 0}
+    name: MarioDeath
+    clip: {fileID: 8300000, guid: 09956270657eb7248b42fd3128041d23, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    name: GameOver
+    clip: {fileID: 8300000, guid: f52ecd80a7ec9494ab0d8767a1bfc502, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    name: Stomp
+    clip: {fileID: 8300000, guid: 6602783d7a87d6c4fbd7442e6189e4f1, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    name: Bump
+    clip: {fileID: 8300000, guid: 2dff8ec592c8d32449e35f0ec29dce96, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    name: Coin
+    clip: {fileID: 8300000, guid: 38ec74c7884fa564f99085e43953b082, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    name: Jump
+    clip: {fileID: 8300000, guid: 89993d1612e4541448cddbfe7e5acf83, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    name: StageCleared
+    clip: {fileID: 8300000, guid: 6f36db549a945da42a23bd6f6f86474c, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    name: Flagpole
+    clip: {fileID: 8300000, guid: 2c976f12cb9f577468dc2404425e9950, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+  - source: {fileID: 0}
+    name: MainTheme
+    clip: {fileID: 8300000, guid: be1166ef53240dc48afe6e1e7accb48a, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
