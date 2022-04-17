@@ -34,7 +34,7 @@ UI for score, coins, lives, and timer are displayed with the help of a GameManag
 The statistics are only recorded per attempt through the use of the DontDestroyOnLoad() method. The prefab is also being controlled by using the singleton design pattern.
 
 <div float="left">
-    <img src="https://user-images.githubusercontent.com/98930139/163696549-285f78af-863a-4078-8ba7-b1c423689b14.gif" width="400" height="50">
+    <img src="https://user-images.githubusercontent.com/98930139/163696549-285f78af-863a-4078-8ba7-b1c423689b14.gif" width="400" height="50" align="top">
     <img src="https://user-images.githubusercontent.com/98930139/163696709-5ebd5ce2-9c81-465e-a233-e89ef0330ac0.gif" width="400">
 </div>
 
