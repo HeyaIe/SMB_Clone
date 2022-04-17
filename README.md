@@ -33,10 +33,7 @@ UI for score, coins, lives, and timer are displayed with the help of a GameManag
 
 The statistics are only recorded per attempt through the use of the DontDestroyOnLoad() method. The prefab is also being controlled by using the singleton design pattern.
 
-<div float="left">
-    <img src="https://user-images.githubusercontent.com/98930139/163696549-285f78af-863a-4078-8ba7-b1c423689b14.gif" width="400" height="50" align="top">
-    <img src="https://user-images.githubusercontent.com/98930139/163696709-5ebd5ce2-9c81-465e-a233-e89ef0330ac0.gif" width="400">
-</div>
+<img src="https://user-images.githubusercontent.com/98930139/163697884-2561a70f-4c34-4eb9-9c00-fc95b6c67402.gif" width="400">
 
 ## Coinblocks
 ---
@@ -57,4 +54,4 @@ An automatic control of movement is implemented as soon as the character comes i
 - Linear interpolation is utilized to tranform the character's position to the base of the flagpole.
 - Followed by changing the character's velocity toward the castle's entrance.
 
-// Show automatic movement
+<img src="https://user-images.githubusercontent.com/98930139/163697736-33792e7b-dcd2-48b8-83b5-500a7a02be37.gif" width="400">
