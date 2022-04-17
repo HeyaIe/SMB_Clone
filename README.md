@@ -44,7 +44,10 @@ Upon collision with the character, only animate the block when the character's c
 
 Coins are instantiated through the use of a coin prefab and as a rigidbody. Force is added on the coin in the 'y' axis and destroyed over time.
 
-// Show coinblock gif
+<div float="left">
+    <img src="https://user-images.githubusercontent.com/98930139/163697575-65a86e95-4b18-491f-9fe1-24ae2cc9a234.gif" width="400" height="50" align="top">
+    <img src="https://user-images.githubusercontent.com/98930139/163697606-60ec236f-f2c3-4697-bb2d-3b34bb351845.gif" width="400">
+</div>
 
 ## Automatic Movement
 ---
