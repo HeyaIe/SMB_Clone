@@ -5,10 +5,10 @@ A Unity project meant to replicate Super Mario Bros. World 1-1 (Unity 2020.3.2f1
 ## Index
 
 - [Scene Transitions](#automatic-movement)
-- Movement
-- Timer & Score
-- Coinblocks
-- Automatic Movement
+- [Movement](#movement)
+- [Timer & Score](#timer--score)
+- [Coinblocks](#coinblocks)
+- [Automatic Movement](#automatic-movement)
 
 ## Scene Transitions
 
