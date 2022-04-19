@@ -2,6 +2,17 @@
 
 A Unity project meant to replicate Super Mario Bros. World 1-1 (Unity 2020.3.2f1)
 
+## Project Overview
+This project is a part of The Tech Academy's Live Project course which is meant to be a learning experience for using the Unity game engine. It involves Agile methodology and team collaboration using Azure DevOps.
+
+### My Role
+I was tasked to develop a game, and complete a series of user stories. Amongst the examples below, I had to implement enemy behaviors, create animations via transform/spritesheet.
+
+One of the bigger challenges I faced was implementing the automatic sequence that followed after the contact with the flagpole. I initially tried to switch the character's rigidbody state to kinematic to ignore the forces and collisions acting against the object. However, I felt that applying linear interpolation seemed smoother.
+
+### What I Learned
+In addition to gaining experience on the Unity game engine, I have also learned to apply the integral concepts of OOP. Furthermore, I gained some experience on utilizing Git version control in a team environment(creating working branches & merging branches).
+
 ## Index
 
 - [Scene Transitions](#automatic-movement)
@@ -9,6 +20,7 @@ A Unity project meant to replicate Super Mario Bros. World 1-1 (Unity 2020.3.2f1
 - [Timer & Score](#timer--score)
 - [Coinblocks](#coinblocks)
 - [Automatic Movement](#automatic-movement)
+- [References](#references)
 
 ## Scene Transitions
 
@@ -55,3 +67,9 @@ An automatic control of movement is implemented as soon as the character comes i
 - Followed by changing the character's velocity toward the castle's entrance.
 
 <img src="https://user-images.githubusercontent.com/98930139/163697736-33792e7b-dcd2-48b8-83b5-500a7a02be37.gif" width="400">
+
+## References
+- Sprites
+    - http://www.mariouniverse.com/sprites-nes-smb/
+- Audio
+    - https://themushroomkingdom.net/media/smb/wav
