@@ -108,7 +108,7 @@ public class M_Movement : MonoBehaviour
     public void Flip()
     {
         facingRight = !facingRight;
-        // Sets the y axis values in degrees around the x axis, if facingRight false, rotate 180 degrees
+        // Sets the y axis values in degrees around the y axis, if facingRight false, rotate 180 degrees
         transform.rotation = Quaternion.Euler(0, facingRight ? 0 : 180, 0);
     }
 
