@@ -3,7 +3,7 @@
 A Unity project meant to replicate Super Mario Bros. World 1-1 (Unity 2020.3.2f1)
 
 ## Project Overview
-This project is a part of The Tech Academy's Live Project course which is meant to be a learning experience for using the Unity game engine. It involves Agile methodology and team collaboration using Azure DevOps.
+This project was meant to be a learning experience for the Unity game engine. It involves Agile methodology and team collaboration.
 
 ### My Role
 I was tasked to develop a game, and complete a series of user stories. Amongst the examples below, I had to implement enemy behaviors, create animations via transform/spritesheet.
